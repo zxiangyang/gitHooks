@@ -1,0 +1,21 @@
+{
+  "name": "githooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.rys.cn:zhengxiangyang/githookstest.git"
+  },
+  "gitHooks": {
+    "commit-msg": "node script/gitHooks.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yorkie": "^2.0.0"
+  }
+}
